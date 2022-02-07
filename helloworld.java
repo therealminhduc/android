@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
                 tv = findViewById(R.id.textView);
 
                 //tv.setText("bonjour tout le monde");
+                
+                //utilisation de variable newtext dans le fichier strings.xml au lieu du string a la ligne 25
                 tv.setText(R.string.newtext);
             }
         });
