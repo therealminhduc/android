@@ -9,6 +9,8 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    
+    //l'image du bouton doit être stocké dans res/drawable sous format jpg ou png
     ImageButton imageButton;
     TextView textView;
 
