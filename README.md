@@ -9,6 +9,6 @@ Exercice d'Application Mobile - IUT de Vélizy S4
 - Simple Toast
 - FrameLayout
 - LinearLayout with button's weight
-
+- Random Text
 
 @therealminhduc 2022
