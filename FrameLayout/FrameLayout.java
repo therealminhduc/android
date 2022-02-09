@@ -17,13 +17,33 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        button1 = findViewById(R.id.button1);
         button2 = findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
+
+        button1.setVisibility(View.VISIBLE);
+        button2.setVisibility(View.INVISIBLE);
+
+
+        button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 textView = findViewById(R.id.textView);
                 textView.setText("Bouton 1 appuye");
+                button2.setVisibility(view.VISIBLE);
+                button1.setVisibility(view.INVISIBLE);
             }
         });
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                textView = findViewById(R.id.textView);
+                textView.setText("Bouton 2 appuye");
+                button1.setVisibility(view.VISIBLE);
+                button2.setVisibility(view.INVISIBLE);
+            }
+        });
+
+
     }
 }
