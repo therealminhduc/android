@@ -10,5 +10,9 @@ Exercice d'Application Mobile - IUT de Vélizy S4
 - FrameLayout
 - LinearLayout with button's weight
 - Random Text
+- Multi languages
+- Login / password / toast
+- Personalized toast
+
 
 @therealminhduc 2022
