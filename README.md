@@ -13,6 +13,8 @@ Exercice d'Application Mobile - IUT de Vélizy S4
 - Multi languages
 - Login / password / toast
 - Personalized toast
+- SeekBar
+- SimpleList (ListView) 1&2
 
 
 @therealminhduc 2022
