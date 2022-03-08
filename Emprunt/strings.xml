@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Emprunt</string>
+    <string name="capital">Capital Emprunté</string>
+    <string name="taux">Taux annuel</string>
+    <string name="annee">Nombre d années</string>
+    <string name="calculer">CALCUL DE MENSUALITÉS</string>
+    <string name="resultat">Vos mensualités seront de :</string>
+</resources>
